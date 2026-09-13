@@ -1,6 +1,9 @@
 # Hiver SDE Intern Take-Home — Comprehensive Evaluation & Architecture Report
 
-**Candidate Project:** Precedent AI — Grounded Support Agent for American Airlines (`@AmericanAir`)  
+**Candidate:** Shubham Patil  
+**LinkedIn:** [https://www.linkedin.com/in/shubham-patil-03019a283/](https://www.linkedin.com/in/shubham-patil-03019a283/)  
+**GitHub:** [https://github.com/shubhampatil631](https://github.com/shubhampatil631)  
+**Project:** Precedent AI — Grounded Support Agent for American Airlines (`@AmericanAir`)  
 **Repository:** [https://github.com/shubhampatil631/Precedent.git](https://github.com/shubhampatil631/Precedent.git)  
 **Dataset:** Kaggle Twitter Customer Support (`twcs.csv` — 2.8M rows)  
 **Core Architecture:** 4-Node LangGraph Orchestration Pipeline + ChromaDB Vector Retrieval + Deterministic Safety Router  

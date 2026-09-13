@@ -308,6 +308,12 @@ Precedent/
 
 ---
 
-## 🛡️ License & Attribution
-Developed for the **Hiver Take-Home Challenge**. Grounded on public Kaggle Twitter Customer Support data for educational and evaluation purposes.
+## 👨‍💻 Author & Attribution
+
+- **Author:** Shubham Patil
+- **LinkedIn:** [https://www.linkedin.com/in/shubham-patil-03019a283/](https://www.linkedin.com/in/shubham-patil-03019a283/)
+- **GitHub:** [https://github.com/shubhampatil631](https://github.com/shubhampatil631)
+- **Repository:** [https://github.com/shubhampatil631/Precedent](https://github.com/shubhampatil631/Precedent)
+
+Developed for the **Hiver SDE Intern — Take-Home Assignment**. Grounded on public Kaggle Twitter Customer Support data for evaluation purposes.
 
