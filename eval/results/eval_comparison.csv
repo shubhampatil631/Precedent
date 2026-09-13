@@ -1,0 +1,4 @@
+System,Intent Accuracy,Routing Accuracy,Escalate F1,Safety Violations,Avg Latency (ms),P95 Latency (ms),Avg Cost ($),LLM Judge Overall (1-5),Checklist Pass Rate
+Trivial,50.0%,50.0%,0.0%,0 (0.0%),0.0 ms,0.1 ms,$0.000000,,
+Simple,100.0%,10.0%,0.0%,0 (0.0%),28.6 ms,75.0 ms,$0.000000,,
+Full,90.0%,100.0%,0.0%,0 (0.0%),17258.3 ms,28437.4 ms,$0.000150,3.50 / 5.0,40.0%

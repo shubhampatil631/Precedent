@@ -1,0 +1,30 @@
+{
+  "total_examples": 160,
+  "target_brand": "AmericanAir",
+  "intent_distribution": {
+    "flight_delay_cancellation": 15,
+    "baggage_luggage_issues": 15,
+    "rebooking_ticket_changes": 15,
+    "seat_cabin_preferences": 12,
+    "checkin_boarding_process": 12,
+    "inflight_experience_amenities": 12,
+    "loyalty_aadvantage_inquiries": 12,
+    "booking_reservation_inquiry": 12,
+    "compliments_positive_feedback": 10,
+    "refund_compensation_claims": 15,
+    "safety_legal_escalation": 15,
+    "other_unclear": 15
+  },
+  "decision_distribution": {
+    "auto_handle": 115,
+    "escalate": 45
+  },
+  "category_distribution": {
+    "standard_resolution": 115,
+    "safety_critical_or_dispute": 30,
+    "out_of_domain": 7,
+    "ambiguous": 6,
+    "adversarial": 2
+  },
+  "golden_file": "D:\\agents\\Precedent\\data\\golden\\golden_set.jsonl"
+}

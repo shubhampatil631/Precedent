@@ -1,0 +1,7 @@
+{
+  "exact_match_pct": 87.5,
+  "within_one_pct": 100.0,
+  "pearson_correlation": 0.9672,
+  "weighted_cohens_kappa": 0.9663,
+  "sample_size": 40
+}

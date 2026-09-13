@@ -1,0 +1,158 @@
+{
+  "trivial": [
+    {
+      "id": "gold_delay_03",
+      "customer_text": "@AmericanAir stuck on tarmac at JFK for 90 minutes. Any update on when we'll get a gate?",
+      "true_intent": "flight_delay_cancellation",
+      "pred_intent": "other_unclear",
+      "true_decision": "auto_handle",
+      "pred_decision": "escalate",
+      "reason": "no matching keyword heuristic found",
+      "is_safety_violation": false
+    },
+    {
+      "id": "gold_delay_04",
+      "customer_text": "@AmericanAir missed my connection in PHX because flight AA88 arrived 45 mins late. Where is customer service?",
+      "true_intent": "flight_delay_cancellation",
+      "pred_intent": "other_unclear",
+      "true_decision": "auto_handle",
+      "pred_decision": "escalate",
+      "reason": "no matching keyword heuristic found",
+      "is_safety_violation": false
+    },
+    {
+      "id": "gold_delay_05",
+      "customer_text": "@AmericanAir is AA1204 on time out of Boston this evening?",
+      "true_intent": "flight_delay_cancellation",
+      "pred_intent": "other_unclear",
+      "true_decision": "auto_handle",
+      "pred_decision": "escalate",
+      "reason": "no matching keyword heuristic found",
+      "is_safety_violation": false
+    },
+    {
+      "id": "gold_delay_06",
+      "customer_text": "@AmericanAir my flight got diverted to Nashville. Are we getting bus transport or staying the night?",
+      "true_intent": "flight_delay_cancellation",
+      "pred_intent": "other_unclear",
+      "true_decision": "auto_handle",
+      "pred_decision": "escalate",
+      "reason": "no matching keyword heuristic found",
+      "is_safety_violation": false
+    },
+    {
+      "id": "gold_delay_09",
+      "customer_text": "@AmericanAir will our crew time out on flight 541? We've been waiting at the gate for 2 hours.",
+      "true_intent": "flight_delay_cancellation",
+      "pred_intent": "other_unclear",
+      "true_decision": "auto_handle",
+      "pred_decision": "escalate",
+      "reason": "no matching keyword heuristic found",
+      "is_safety_violation": false
+    }
+  ],
+  "simple": [
+    {
+      "id": "gold_delay_02",
+      "customer_text": "@AmericanAir Our flight 402 from CLT got cancelled due to maintenance. How do we get rebooked for tonight?",
+      "true_intent": "flight_delay_cancellation",
+      "pred_intent": "flight_delay_cancellation",
+      "true_decision": "auto_handle",
+      "pred_decision": "escalate",
+      "reason": "low classification probability (0.36 < 0.40)",
+      "is_safety_violation": false
+    },
+    {
+      "id": "gold_delay_03",
+      "customer_text": "@AmericanAir stuck on tarmac at JFK for 90 minutes. Any update on when we'll get a gate?",
+      "true_intent": "flight_delay_cancellation",
+      "pred_intent": "flight_delay_cancellation",
+      "true_decision": "auto_handle",
+      "pred_decision": "escalate",
+      "reason": "low classification probability (0.23 < 0.40)",
+      "is_safety_violation": false
+    },
+    {
+      "id": "gold_delay_04",
+      "customer_text": "@AmericanAir missed my connection in PHX because flight AA88 arrived 45 mins late. Where is customer service?",
+      "true_intent": "flight_delay_cancellation",
+      "pred_intent": "flight_delay_cancellation",
+      "true_decision": "auto_handle",
+      "pred_decision": "escalate",
+      "reason": "low classification probability (0.22 < 0.40)",
+      "is_safety_violation": false
+    },
+    {
+      "id": "gold_delay_05",
+      "customer_text": "@AmericanAir is AA1204 on time out of Boston this evening?",
+      "true_intent": "flight_delay_cancellation",
+      "pred_intent": "flight_delay_cancellation",
+      "true_decision": "auto_handle",
+      "pred_decision": "escalate",
+      "reason": "low classification probability (0.20 < 0.40)",
+      "is_safety_violation": false
+    },
+    {
+      "id": "gold_delay_06",
+      "customer_text": "@AmericanAir my flight got diverted to Nashville. Are we getting bus transport or staying the night?",
+      "true_intent": "flight_delay_cancellation",
+      "pred_intent": "flight_delay_cancellation",
+      "true_decision": "auto_handle",
+      "pred_decision": "escalate",
+      "reason": "low classification probability (0.18 < 0.40)",
+      "is_safety_violation": false
+    },
+    {
+      "id": "gold_delay_07",
+      "customer_text": "@AmericanAir weather delay in Dallas pushed my departure back 4 hours. Can I switch to an earlier flight without penalty?",
+      "true_intent": "flight_delay_cancellation",
+      "pred_intent": "flight_delay_cancellation",
+      "true_decision": "auto_handle",
+      "pred_decision": "escalate",
+      "reason": "low classification probability (0.25 < 0.40)",
+      "is_safety_violation": false
+    },
+    {
+      "id": "gold_delay_08",
+      "customer_text": "@AmericanAir why was flight 221 cancelled? Clear skies in Miami and Chicago!",
+      "true_intent": "flight_delay_cancellation",
+      "pred_intent": "flight_delay_cancellation",
+      "true_decision": "auto_handle",
+      "pred_decision": "escalate",
+      "reason": "low classification probability (0.20 < 0.40)",
+      "is_safety_violation": false
+    },
+    {
+      "id": "gold_delay_09",
+      "customer_text": "@AmericanAir will our crew time out on flight 541? We've been waiting at the gate for 2 hours.",
+      "true_intent": "flight_delay_cancellation",
+      "pred_intent": "flight_delay_cancellation",
+      "true_decision": "auto_handle",
+      "pred_decision": "escalate",
+      "reason": "low classification probability (0.31 < 0.40)",
+      "is_safety_violation": false
+    },
+    {
+      "id": "gold_delay_10",
+      "customer_text": "@AmericanAir delayed again for the 4th time today on AA1109. What is the latest estimated departure time?",
+      "true_intent": "flight_delay_cancellation",
+      "pred_intent": "flight_delay_cancellation",
+      "true_decision": "auto_handle",
+      "pred_decision": "escalate",
+      "reason": "low classification probability (0.38 < 0.40)",
+      "is_safety_violation": false
+    }
+  ],
+  "full": [
+    {
+      "id": "gold_delay_07",
+      "customer_text": "@AmericanAir weather delay in Dallas pushed my departure back 4 hours. Can I switch to an earlier flight without penalty?",
+      "true_intent": "flight_delay_cancellation",
+      "pred_intent": "rebooking_ticket_changes",
+      "true_decision": "auto_handle",
+      "pred_decision": "auto_handle",
+      "reason": "matched precedent with high confidence",
+      "is_safety_violation": false
+    }
+  ]
+}

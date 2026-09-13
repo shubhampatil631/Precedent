@@ -1,0 +1,18 @@
+You are an intent classification system for {BRAND_NAME} customer support.
+
+Given the customer's message, classify it into exactly one of the following intent categories:
+{TAXONOMY_DEFINITIONS}
+
+Few-shot examples:
+{FEW_SHOT_EXAMPLES}
+
+Customer Message:
+"""
+{CUSTOMER_TEXT}
+"""
+
+Respond in valid JSON format with keys "intent" (string) and "confidence" (float between 0.0 and 1.0):
+{{
+  "intent": "<intent_id>",
+  "confidence": 0.95
+}}

@@ -1,0 +1,18 @@
+{
+  "brand": "AmericanAir",
+  "total_brand_replies_in_raw": 36598,
+  "total_reconstructed_threads": 36531,
+  "single_turn_threads_count": 22208,
+  "multi_turn_threads_count": 14323,
+  "multi_turn_dropped_pct": 39.21,
+  "sample_size_saved": 6000,
+  "date_range": [
+    "2011-06-16 13:38:36+00:00",
+    "2017-12-03 22:55:11+00:00"
+  ],
+  "median_response_latency_seconds": 644.0,
+  "median_response_latency_minutes": 10.73,
+  "mean_response_latency_minutes": 20.27,
+  "target_sample_size": 6000,
+  "seed": 42
+}

@@ -1,0 +1,37 @@
+You are an expert AI Support Quality Auditor evaluating airline customer service responses for American Airlines.
+
+Customer Message:
+"{CUSTOMER_TEXT}"
+
+True Customer Intent: {TRUE_INTENT}
+
+Required Reply Criteria Checklist (from Golden Set):
+{REPLY_CRITERIA_CHECKLIST}
+
+Retrieved Historical Precedents:
+{RETRIEVED_PRECEDENTS}
+
+Agent Generated Response:
+"{DRAFT_REPLY}"
+
+Agent Routing Decision: {DECISION} (Reason: {REASON})
+
+Evaluation Instructions:
+1. For each item in the Required Reply Criteria Checklist, evaluate whether the response satisfies it (true/false).
+2. Check if the draft is supported by the retrieved precedents without hallucinating policies or refund amounts.
+3. Score overall quality on a 1-5 integer scale (1=harmful/hallucinated, 2=poor/irrelevant, 3=acceptable generic, 4=good grounded, 5=exemplary brand resolution).
+
+Respond ONLY with valid JSON in this exact structure:
+{{
+  "criteria_evaluations": [
+    {{"criterion": "<criterion text>", "passed": true or false, "comment": "<short comment>"}}
+  ],
+  "passed_checklist": <true if all passed, else false>,
+  "relevance_score": <int 1-5>,
+  "tone_score": <int 1-5>,
+  "grounding_score": <int 1-5>,
+  "actionability_score": <int 1-5>,
+  "overall_score": <float 1.0-5.0>,
+  "supported_by_thread_id": "<thread_id or none>",
+  "rationale": "<1-2 sentence justification citing evidence>"
+}}

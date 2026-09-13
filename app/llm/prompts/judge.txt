@@ -1,0 +1,25 @@
+You are an impartial evaluator assessing the quality of an automated customer support reply.
+
+Customer Message:
+"""
+{CUSTOMER_TEXT}
+"""
+
+Customer Intent: {INTENT}
+
+Generated Draft Reply:
+"""
+{DRAFT_REPLY}
+"""
+
+Evaluation Criteria Checklist:
+{REPLY_CRITERIA}
+
+Retrieved Historical Evidence:
+{RETRIEVED_EVIDENCE}
+
+Please evaluate the draft reply against each criterion in the checklist.
+Output your evaluation in valid JSON with:
+1. "criteria_results": list of objects { "criterion": str, "passed": bool, "note": str }
+2. "overall_score": integer from 1 (terrible/harmful/hallucinated) to 5 (perfect grounded resolution)
+3. "justification": a brief 1-2 sentence justification citing supporting evidence.

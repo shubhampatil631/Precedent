@@ -1,0 +1,138 @@
+{
+  "brand": "AmericanAir",
+  "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "sample_size_evaluated": 300,
+  "silhouette_scores": {
+    "8": 0.018826903775334358,
+    "9": 0.025970764458179474,
+    "10": 0.021315772086381912,
+    "11": 0.026272477582097054,
+    "12": 0.022464346140623093,
+    "13": 0.023031121119856834,
+    "14": 0.019616976380348206,
+    "15": 0.021561216562986374
+  },
+  "optimal_k": 11,
+  "intents": [
+    {
+      "id": "flight_delay_cancellation",
+      "label": "Flight delay or cancellation",
+      "description": "Customer reports a delayed, cancelled, diverted, or rescheduled flight and seeks status, connection help, or rebooking.",
+      "examples": [
+        "@AmericanAir Flight AA2453 is delayed over 3 hours now. Will I make my connection in Charlotte?",
+        "@AmericanAir our flight from ORD to DFW just got cancelled with no explanation. How do we get on the next flight?",
+        "#Americanair your customer service is horrible with flight 2375 getting us boarded for a 2+ hour delay"
+      ]
+    },
+    {
+      "id": "baggage_luggage_issues",
+      "label": "Baggage and luggage issues",
+      "description": "Customer inquires about delayed, missing, lost, or damaged checked luggage, baggage claim procedures, or baggage fees.",
+      "examples": [
+        "@AmericanAir landed in Miami but my bag never arrived on carousel 4. Where do I file a lost baggage claim?",
+        "@AmericanAir - still no bags... they've been ofd since 9:30... This NYC trip is not going good at all.  Stuck in hotel naked.",
+        "@AmericanAir They charged us to check in a bag they didn\u2019t even check in!"
+      ]
+    },
+    {
+      "id": "rebooking_ticket_changes",
+      "label": "Flight rebooking and ticket changes",
+      "description": "Customer wants to change travel dates, switch flights, request standby, or modify passenger information on an existing ticket.",
+      "examples": [
+        "@AmericanAir can I change my flight tomorrow to an earlier departure without paying change fees?",
+        "@AmericanAir I need to add my infant in lap to my existing reservation. Can you help me do this?",
+        "@AmericanAir how do I get placed on the standby list for the 5pm flight to Boston?"
+      ]
+    },
+    {
+      "id": "seat_cabin_comfort",
+      "label": "Seat assignment and cabin amenities",
+      "description": "Customer inquires about seat selection, upgrades, Main Cabin Extra, legroom, inflight Wi-Fi, or entertainment.",
+      "examples": [
+        "@AmericanAir I booked seats together with my spouse but you separated us at check-in. Can you fix this?",
+        "@AmericanAir wifi on flight AA890 is not working at all despite paying $15 for access.",
+        "@AmericanAir how can I use my systemwide upgrades for business class on my upcoming international flight?"
+      ]
+    },
+    {
+      "id": "checkin_boarding_issues",
+      "label": "Check-in and airport boarding",
+      "description": "Customer encounters issues with online/mobile check-in, TSA PreCheck not showing on boarding pass, or airport gate boarding.",
+      "examples": [
+        "@AmericanAir the app won't let me check in for my flight tomorrow. Keeps saying 'error loading boarding pass'.",
+        "@AmericanAir my known traveler number was saved on my profile but TSA PreCheck is missing from my boarding pass.",
+        "@AmericanAir gate agent in Terminal C closed the door 20 minutes before departure while passengers were in line."
+      ]
+    },
+    {
+      "id": "refund_compensation_claims",
+      "label": "Refund, voucher, or compensation claims",
+      "description": "Customer requests a ticket refund, compensation for delays/cancellations, or clarification on travel credit/vouchers.",
+      "examples": [
+        "@AmericanAir I submitted a refund request two weeks ago for a cancelled flight. What is the status of my refund?",
+        "@AmericanAir we were stuck overnight in Philadelphia due to mechanical delay. How do we claim hotel voucher compensation?",
+        "@AmericanAir my travel voucher code is showing as invalid when I try to apply it at checkout."
+      ]
+    },
+    {
+      "id": "frequent_flyer_loyalty",
+      "label": "AAdvantage loyalty and miles",
+      "description": "Customer asks about AAdvantage account balance, missing miles from past flights, loyalty status tiers, or partner airline points.",
+      "examples": [
+        "@AmericanAir my miles for my flight last week to London haven't posted to my AAdvantage account yet.",
+        "@AmericanAir how many loyalty points do I need before the end of the month to maintain Platinum status?",
+        "@AmericanAir I want to redeem miles for an award ticket but the website is displaying an error code."
+      ]
+    },
+    {
+      "id": "booking_reservation_inquiry",
+      "label": "New booking and general reservation inquiries",
+      "description": "Customer has questions about booking policies, unaccompanied minors, pet travel policies, or payment methods on aa.com.",
+      "examples": [
+        "@AmericanAir what is your current policy for traveling with a small dog in the cabin?",
+        "@AmericanAir can I hold a reservation for 24 hours before finalizing payment?",
+        "@AmericanAir I made a spelling typo in the first name on my ticket, how do I get it corrected?"
+      ]
+    },
+    {
+      "id": "customer_service_complaint",
+      "label": "Staff behavior and service complaint",
+      "description": "Customer expresses dissatisfaction with rude staff, phone hold times, lack of communication, or poor customer support experience.",
+      "examples": [
+        "@AmericanAir been on hold on your customer service line for 2 and a half hours. This is completely unacceptable.",
+        "@AmericanAir your gate agent in Charlotte was extremely rude and unhelpful to passengers seeking information.",
+        "@AmericanAir worst customer service experience I have ever had. No one at the counter cared about our stranded group."
+      ]
+    },
+    {
+      "id": "safety_legal_escalation",
+      "label": "Safety, security, or legal escalation",
+      "description": "Customer reports a safety hazard, medical emergency, security issue, or threatens legal action against the airline (must escalate).",
+      "examples": [
+        "@AmericanAir this is gross negligence and breach of contract. I am contacting the FAA and my attorney immediately.",
+        "@AmericanAir a passenger on flight AA302 is experiencing a medical emergency, emergency medical team needed at gate.",
+        "@AmericanAir serious safety violation witnessed with engine inspection before takeoff in Dallas."
+      ]
+    },
+    {
+      "id": "praise_feedback_gratitude",
+      "label": "Praise, appreciation, and positive feedback",
+      "description": "Customer thanks the airline, flight attendants, or pilots for exceptional service or a great travel experience.",
+      "examples": [
+        "@AmericanAir huge shoutout to flight attendant Sarah on AA450 today for being so attentive and kind!",
+        "@AmericanAir smooth flight and arrived 20 minutes early into Chicago. Great job team!",
+        "@AmericanAir thank you for quickly helping us rebook our connection earlier today, very appreciated."
+      ]
+    },
+    {
+      "id": "other_unclear",
+      "label": "Other or unclear inquiry",
+      "description": "Inquiries that are ambiguous, unintelligible, brief greetings/pleasantries, or do not fit defined operational categories.",
+      "examples": [
+        "@AmericanAir hello",
+        "@AmericanAir ???",
+        "@AmericanAir check this out"
+      ]
+    }
+  ]
+}

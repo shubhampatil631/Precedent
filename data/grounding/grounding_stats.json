@@ -1,0 +1,21 @@
+{
+  "brand": "AmericanAir",
+  "total_candidate_threads": 6000,
+  "handoff_threads_filtered": 1273,
+  "handoff_filter_drop_pct": 21.22,
+  "resolved_grounding_pairs_saved": 2000,
+  "intent_distribution": {
+    "praise_feedback_gratitude": 1025,
+    "flight_delay_cancellation": 256,
+    "baggage_luggage_issues": 195,
+    "seat_cabin_comfort": 154,
+    "customer_service_complaint": 123,
+    "checkin_boarding_issues": 89,
+    "other_unclear": 47,
+    "frequent_flyer_loyalty": 30,
+    "booking_reservation_inquiry": 27,
+    "safety_legal_escalation": 22,
+    "refund_compensation_claims": 17,
+    "rebooking_ticket_changes": 15
+  }
+}
